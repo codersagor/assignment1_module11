@@ -1,0 +1,56 @@
+:root {
+  --main-color: #336699;
+  --secondary-color: #99ccff;
+  --heading-font-size: 24px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1070px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: var(--heading-font-size);
+  text-align: center;
+}
+
+ul li:first-child {
+  font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+tbody tr:hover {
+  background-color: #ffcccc;
+}
+
+thead th {
+  background-color: #cccccc;
+}
